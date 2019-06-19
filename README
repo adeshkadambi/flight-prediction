@@ -1,0 +1,31 @@
+Files:
+
+ - README: this file
+ - BOS_CUN_trips1M.csv.gz, a gzipped CSV file with about 1M trip records collected for a particular route
+ - trips.pmm: a YAML-formatted metadata file that describes most of the columns in the CSV file.
+
+Background:
+
+Hopper receives several billion priced air travel trips every day, in near real-time.
+Each trip is part of a bundle of trips indicated by a message identifier.
+Usually a bundle of trips is the result of a consumer flight search at an online travel agency (OTA).
+For example, a user might search for flights from BOS to JFK, perhaps including nearby airports,
+with particular (possibly flexible) departure and return dates.
+The search returns many possible priced trip options, which forms a bundle of trips.
+Hopper doesn't receive any information about whether a trip was purchased,
+what the original query was, or any user-identifiable information.
+
+This exercise includes all the trips we received for a single route over a period of about 60 days.
+Feel free to use whatever tools you like, and sketch a short (<500 words) consumer-oriented article
+with tips for flying from Boston to Cancun.  Choose your own focus, perhaps considering things like:
+
+    - When should I travel?
+    - How far ahead should I book?
+    - What price should I expect to pay?
+    - Should I buy my ticket now or wait?
+
+We're interested as much in your process as in the final product,
+so don't feel you have to dot every i and cross every t.
+
+
+
